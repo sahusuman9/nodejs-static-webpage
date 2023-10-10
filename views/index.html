@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+
+      <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          fontFamily: {
+            sans: ["Roboto", "sans-serif"],
+            body: ["Roboto", "sans-serif"],
+            mono: ["ui-monospace", "monospace"],
+          },
+        },
+        corePlugins: {
+          preflight: false,
+        },
+      };
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="flex justify-between bg-purple-700 p-4">
+        <div class="right">
+            <p>MyWebsite</p>
+        </div>
+        <div class="left">
+            <ul class="flex pl-5">
+                
+                <li class="mr-3"><a href="/index">Home</a></li>
+                <li class="mr-3"><a href="/about">About</a></li>
+                <li class="mr-3"><a href="/contact">Contact</a></li>
+                <li class="mr-3"><a href="/email">Email</a></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h1 class="text-3xl">Heyy Friends</h1>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+</body>
+</html>
